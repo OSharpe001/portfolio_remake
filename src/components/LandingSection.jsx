@@ -1,15 +1,16 @@
-import React from 'react';
+
 
 export default function LandingSection() {
 
-    const initialGreeting = 'console.log("Hello, World!")';
+  const initialGreeting = "<h1>Hello, World</h1>";
 
   return (
-    <div>
+      <div className="landing">
         <h1 className="console-greeting">{initialGreeting}</h1>
-        {/* <img src="" alt="my profile" className="profile-pic" /> */}
-        <h1 className="introduction">I am Omari Sharpe!</h1>
-        <h1 className="declaration">A Full Stack Web Developer who specializes in React</h1>
-    </div>
+        <img src={require("../assets/images/my_profile.png")} alt="my profile" className="profile-pic" />
+        <h1 className="introduction">I Am Omari Sharpe!</h1>
+        <h1 className="declaration">A Full Stack Web Developer</h1>
+        <h1 className="declaration">Who Specializes in React</h1>
+      </div>
   );
 };
