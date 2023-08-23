@@ -35,7 +35,6 @@ export default function Header() {
 
   return (
     <header
-            // className="nav-header"
             style={
               headerPos === "hide" ?
                 {
