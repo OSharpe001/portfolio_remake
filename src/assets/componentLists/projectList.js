@@ -3,7 +3,7 @@ export const projects = [
       title: "Letter to Success",
       description:
         'My rendition of "Wheel of Fortune! A great way to wind-down after a busy day of coding. 😁 ',
-      getImageSrc: () => require("../images/letter_to_success.png"),
+      getImageSrc: () => require("../images/projectPics/letter_to_success.png"),
       site: "https://lettertosuccess.netlify.app"
     },
     // {
@@ -17,14 +17,14 @@ export const projects = [
       title: "Our Tip Calculator",
       description:
         "An intuitive tip calculator for any occasion.",
-      getImageSrc: () => require("../images/our_tip_calculator.png"),
+      getImageSrc: () => require("../images/projectPics/our_tip_calculator.png"),
       site: "https://ourtipcalculator.netlify.app"
     },
     {
       title: "Pokemon Memory Match Game",
       description:
         `A tournament-style, card memory-match game that's fun for all ages!`,
-      getImageSrc: () => require("../images/poke_memory_match.png"),
+      getImageSrc: () => require("../images/projectPics/poke_memory_match.png"),
       site: "https://osharpe001.github.io"
     },
     // {
@@ -38,7 +38,7 @@ export const projects = [
       title: "More to Come",
       description:
         "Just like a city's skyline, there's more projects on the horizon. . .",
-      getImageSrc: () => require("../images/city_top.jpeg"),
+      getImageSrc: () => require("../images/projectPics/build_higher.jpeg"),
       site: null
     },
   ];

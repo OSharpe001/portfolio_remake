@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import socializingList from "../assets/componentLists/socializingList"
+import { socials } from "../assets/componentLists/socializingList"
 
 
 export default function Header() {
@@ -35,7 +35,7 @@ export default function Header() {
 
   return (
     <header
-            className="nav-header"
+            // className="nav-header"
             style={
               headerPos === "hide" ?
                 {
@@ -51,18 +51,18 @@ export default function Header() {
               }
             }
     >
-        <nav>
+        <nav className="icon-nav">
             {
-                socializingList.map((socialLink) => (
+                socials.map((socialLink) => (
                   <a aria-label="On Click" target="_blank" rel="noreferrer" href={socialLink.url} key={socialLink.url}>
-                    <img className="icons" icon={socialLink.icon} alt="socializing icon" />
+                    <img className="icons" src={socialLink.icon} alt="socializing icon" />
                   </a>
                 ))
             }
         </nav>
         <nav className="section-scroll">
-            <a aria-label="On Click" className="shift-page" onClick={handlePageShift("contactme")} href="/#contact-me">Contact Me</a>
-            <a aria-label="On Click" className="shift-page" onClick={handlePageShift("projects")} href="/#projects">Projects</a>
+            <a aria-label="On Click" className="shift-page-link" onClick={handlePageShift("contactme")} href="/#contact-me">Contact Me</a>
+            <a aria-label="On Click" className="shift-page-link" onClick={handlePageShift("projects")} href="/#projects">Projects</a>
         </nav>
     </header>
   );

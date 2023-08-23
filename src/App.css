@@ -1,15 +1,46 @@
 .App {
   text-align: center;
 }
-
-/* HEADER (PEEKING NAVBAR) STYLES */
-.nav-header {
+header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   min-height: 8vh;
   height:max-content;
   animation-duration: .3s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
 }
+header a {
+  color: aliceblue;
+}
+.icon-nav {
+  flex: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 10vw auto 3vw;
+  border: 2px solid red;
+}
+.icons {
+  width: 25px;
+}
+.section-scroll{
+  flex: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto 3vw auto 10vw;
+  border: 2px solid red;
+
+}
+.shift-page-link {
+  font-size: 14pt;
+}
+
 
 @keyframes drop-nav {
   0% {

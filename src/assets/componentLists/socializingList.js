@@ -1,8 +1,8 @@
-import { email } from "../images/socialIcons/email.png";
-import { github } from "../images/socialIcons/github.png";
-import { linkedin } from "../images/socialIcons/linkedin.png";
-import { stackoverflow } from "../images/socialIcons/stackoverflow.png";
-import { twitter } from "../images/socialIcons/twitter.png";
+import email from "../images/socialIcons/email.png";
+import github from "../images/socialIcons/github.png";
+import linkedin from "../images/socialIcons/linkedin.png";
+import stackoverflow from "../images/socialIcons/stackoverflow.png";
+import twitter from "../images/socialIcons/twitter.png";
 
 
 export const socials = [

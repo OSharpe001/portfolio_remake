@@ -1,5 +1,5 @@
-import React from 'react';
-import projectList from "./assets/projectList";
+// import React from 'react';
+import { projects } from "../assets/componentLists/projectList";
 
 
 export default function ProjectsSection() {
