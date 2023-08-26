@@ -7,25 +7,21 @@
   margin-bottom: -3vh;
   text-align: center;
   background-color: black;
-  /* border: 2px solid red; */
 }
 
 /* HEADER AND HIDING-NAV STYLES */
 header {
-  /* margin: 0 auto; */
   background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* min-height: 10vh; */
   height: 8vh;
-  /* height:max-content; */
   animation-duration: .3s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
-  /* border: 2px solid red; */
 }
+
 @keyframes drop-nav {
   0% {
     position: sticky;
@@ -48,6 +44,7 @@ header {
     top: 0;
   }
 }
+
 @keyframes raise-nav {
   0% {
     position: sticky;
@@ -70,9 +67,11 @@ header {
     top: -100px;
   }
 }
+
 header a {
   color: aliceblue;
 }
+
 .icon-nav {
   width: 30%;
   display: flex;
@@ -80,58 +79,56 @@ header a {
   justify-content: space-between;
   align-items: center;
   margin: auto 0 auto 10vw;
-  /* border: 2px solid red; */
 }
+
 .icons {
   width: 33px;
   cursor: pointer;
 }
+
 .section-scroll{
   width: 15%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: auto 10vw auto 0;
-  /* border: 2px solid red; */
 }
+
 .shift-page-link {
   font-size: 14pt;
   text-decoration: none;
 }
+
 .shift-page-link:hover {
   text-decoration: underline;
 }
 
-
-
+/* LANDING SECTION STYLES */
 .profile-pic {
   width: 120px;
-  /* height: 100px; */
   border-radius: 50%;
   border: 3px ridge black;
 }
+
 .landing {
   margin: -3vh auto;
   padding-top: 23vh;
   height: 75vh;
   color: aliceblue;
   background-image: linear-gradient(to left, blue, #2A4365);
-  /* justify-content: center; */
-  /* justify-self: center; */
-  /* justify-items: center; */
-  /* align-content: center; */
-  /* align-items: center; */
-  /* align-self: center; */
 }
+
 .introduction {
   font-size: 14pt;
   margin-bottom: 10vh;
 }
+
 .declaration {
   font-size: 33pt;
 }
+
+/* PROJECT SECTION STYLES */
 #projects-section {
-  /* margin: 0 auto; */
   height: 104vh;
   color: aliceblue;
   background-image: linear-gradient(to right, blue, #2A4365);
@@ -142,20 +139,20 @@ header a {
   align-items: center;
   align-self: center;
 }
+
+
+
+
+
+
+/* CONTACTME SECTION STYLES */
 #contactme-section {
-  /* margin: 0 auto; */
   margin-top: -3vh;
   padding-top: 11vh;
   padding-bottom: 10vh;
   height: 77vh;
   color: aliceblue;
   background-image: linear-gradient(to right, #2A4365, blue);
-  /* justify-content: center; */
-  /* justify-self: center; */
-  /* justify-items: center; */
-  /* align-content: center; */
-  /* align-items: center; */
-  /* align-self: center; */
 }
 
 form {
@@ -171,14 +168,12 @@ form h1 {
   margin: 20px auto;
   text-align: center;
   text-decoration: underline;
-  /* border: 2px solid red; */
 }
 
 .form {
   margin: 0 auto 20px;
   text-align: left;
   width: 90%;
-  /* border: 2px solid red; */
 }
 
 .form label {
@@ -193,12 +188,8 @@ input, textarea {
   width: 97%;
   margin: 0 auto;
   padding: 1vh .5vw;
-  /* text-align: center; */
-  /* justify-self: left; */
-  /* align-self: left; */
   color: aliceblue;
   border-radius: 5px;
-  /* background-image: linear-gradient(to right, #2A4365, blue); */
   background-color: transparent;
   border: 1px ridge aliceblue;
 }
@@ -206,22 +197,19 @@ input, textarea {
 select {
   font-size: 12pt;
   width: 100%;
-  /* margin: 0 auto; */
-  /* padding: 1vh .5vw; */
   color: aliceblue;
   background-color: transparent;
   border: 1px ridge aliceblue;
-  /* border-radius: 5px; */
 }
 
 textarea {
   height: 8ch;
 }
 
-.form p {
+.error-message {
   color: red;
-  /* text-shadow: 1px 1px 1px aliceblue; */
   width: 100%;
+  height: 2.3ch;
   text-align: center;
   font-size: 15pt;
   margin: .5vh auto 2vh;
@@ -229,23 +217,36 @@ textarea {
 
 .form button {
   font-size: 13pt;
+  min-width: 12ch;
   width: 50%;
+  max-width: 50%;
+  max-height: 5vh;
   margin-left: 25%;
-  padding: 1vh .5vw;
+  overflow: hidden;
   color: aliceblue;
   background-color: transparent;
   border-radius: 5px;
   border: 1px ridge aliceblue;
-  /* margin: 0 auto; */
-  /* text-align: center; */
-  /* justify-content: center; */
-  /* justify-self: center; */
-  /* justify-items: center; */
-  /* align-items: center; */
-  /* align-self: center; */
-  /* align-content: center; */
 }
 
+.form button:disabled {
+  cursor: not-allowed;
+}
+
+.form a {
+  width: 100%;
+  height: 100%;
+  padding: 1vh 4.2vw;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.form a:hover {
+  text-decoration: underline;
+  transition: all 3s ease-in-out;
+}
+
+/* FOOTER STYLES */
 footer {
   width: 100%;
   height: 8vh;
@@ -257,3 +258,5 @@ footer {
   justify-content: space-around;
   margin-bottom: -2vh;
 }
+
+/* MOBILE STYLES */
