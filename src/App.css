@@ -87,7 +87,7 @@ header a {
   cursor: pointer;
 }
 .section-scroll{
-  width: 20%;
+  width: 15%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -132,7 +132,7 @@ header a {
 }
 #projects-section {
   /* margin: 0 auto; */
-  height: 100vh;
+  height: 104vh;
   color: aliceblue;
   background-image: linear-gradient(to right, blue, #2A4365);
   justify-content: center;
@@ -145,20 +145,111 @@ header a {
 #contactme-section {
   /* margin: 0 auto; */
   margin-top: -3vh;
-  height: 100vh;
+  padding-top: 11vh;
+  padding-bottom: 10vh;
+  height: 77vh;
   color: aliceblue;
-  background-image: linear-gradient(to right, blue, #2A4365);
-  justify-content: center;
-  justify-self: center;
-  justify-items: center;
-  align-content: center;
-  align-items: center;
-  align-self: center;
+  background-image: linear-gradient(to right, #2A4365, blue);
+  /* justify-content: center; */
+  /* justify-self: center; */
+  /* justify-items: center; */
+  /* align-content: center; */
+  /* align-items: center; */
+  /* align-self: center; */
+}
+
+form {
+  margin: auto;
+  width: 45%;
+  box-shadow: -2px 2px 13px aliceblue;
+  border-radius: 10px;
+  border: 2px solid blue;
+}
+
+form h1 {
+  font-size: 25pt;
+  margin: 20px auto;
+  text-align: center;
+  text-decoration: underline;
+  /* border: 2px solid red; */
+}
+
+.form {
+  margin: 0 auto 20px;
+  text-align: left;
+  width: 90%;
+  /* border: 2px solid red; */
+}
+
+.form label {
+  display: block;
+  font-size: 16pt;
+  margin: 0 0 10px;
+  text-align: left;
+}
+
+input, textarea {
+  font-size: 12pt;
+  width: 97%;
+  margin: 0 auto;
+  padding: 1vh .5vw;
+  /* text-align: center; */
+  /* justify-self: left; */
+  /* align-self: left; */
+  color: aliceblue;
+  border-radius: 5px;
+  /* background-image: linear-gradient(to right, #2A4365, blue); */
+  background-color: transparent;
+  border: 1px ridge aliceblue;
+}
+
+select {
+  font-size: 12pt;
+  width: 100%;
+  /* margin: 0 auto; */
+  /* padding: 1vh .5vw; */
+  color: aliceblue;
+  background-color: transparent;
+  border: 1px ridge aliceblue;
+  /* border-radius: 5px; */
+}
+
+textarea {
+  height: 8ch;
+}
+
+.form p {
+  color: red;
+  /* text-shadow: 1px 1px 1px aliceblue; */
+  width: 100%;
+  text-align: center;
+  font-size: 15pt;
+  margin: .5vh auto 2vh;
+}
+
+.form button {
+  font-size: 13pt;
+  width: 50%;
+  margin-left: 25%;
+  padding: 1vh .5vw;
+  color: aliceblue;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px ridge aliceblue;
+  /* margin: 0 auto; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* justify-self: center; */
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* align-self: center; */
+  /* align-content: center; */
 }
 
 footer {
   width: 100%;
   height: 8vh;
+  font-size: 14pt;
   color: aliceblue;
   background-color: black;
   display: flex;
