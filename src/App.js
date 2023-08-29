@@ -1,11 +1,9 @@
-import { Route, Routes, useNavigate } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import { AboutMe, Footer, Header, Main, ProjectDetailPage } from './components';
 
 
 export default function App() {
-
-  const navigate = useNavigate();
 
   return (
     <div className="App">
