@@ -11,14 +11,14 @@ export default function ProjectCard({ title, description, image, site }) {
 
   return (
     <div className="project-card">
-      {/* {site ? */}
+      {site ?
         <button className="project-image-button" onClick={goToDetails}><img className="project-image" src={image} alt={`${title} website`} /></button>
-      {/* :
-        <img className="project-image" src={image} alt={"building, in process"} />
-      } */}
+      :
+      <button className="project-image-button"><img className="project-image" src={image} alt={"building, in process"} /></button>
+      }
       
-      <h2>{title}</h2>
-      <p>{description}</p>
+      <h2 className="project-title">{title}</h2>
+      <p className="project-description">{description}</p>
       {
         site ?
           <button className='site-button'>

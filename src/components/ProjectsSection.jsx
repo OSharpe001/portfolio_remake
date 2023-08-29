@@ -7,7 +7,7 @@ export default function ProjectsSection() {
 
   return (
       <section id="projects-section">
-        <h1>Featured Projects</h1>
+        <h1 className="banner">Featured Projects</h1>
         <div className="projects">
           {projects.map((project, i) => (
             <ProjectCard

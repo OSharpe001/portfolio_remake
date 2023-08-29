@@ -137,10 +137,17 @@ header a {
 
 /* PROJECT SECTION STYLES */
 #projects-section {
-  min-height: 104vh;
+  min-height: 130vh;
   height: max-content;
   color: aliceblue;
   background-image: linear-gradient(to right, blue, #2A4365);
+}
+.banner {
+  font-size: 20pt;
+  text-align: left;
+  margin-left: 9%;
+  padding-top: 40px;
+  text-decoration: underline;
 }
 .projects {
   justify-items: center;
@@ -150,7 +157,7 @@ header a {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
-  grid-gap: 8px;
+  grid-gap: 20px;
   /* border: 2px solid aliceblue; */
 }
 .project-card {
@@ -175,6 +182,13 @@ header a {
   width: 100%;
   border-radius: 16px 16px 0 0;
 }
+.project-title {
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+.project-description{
+  font-size: 14pt;
+}
 .projects-left {
   z-index: 1;
 }
@@ -185,7 +199,10 @@ header a {
   z-index: 1;
 }
 .site-button {
-  width: 95%;
+  /* width: 95%; */
+  /* position:relative; */
+  /* bottom: 5px; */
+  width: max-content;
   align-self: center;
   background-color: aliceblue;
   border-radius: 10px;
@@ -194,8 +211,10 @@ header a {
   text-decoration: underline;
 }
 .site-button a {
+  font-size: 12pt;
   text-decoration: none;
-  background-color: yellow;
+  /* background-color: yellow; */
+  /* padding: 0 42%; */
 }
 .site-arrow {
   height: 10px;
