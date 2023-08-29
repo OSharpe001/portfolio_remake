@@ -7,16 +7,16 @@ export default function ProjectCard({ title, description, image, site }) {
 
   const goToDetails = () => {
     navigate("/details");
-  }
+  };
 
   return (
     <div className="project-card">
       {site ?
         <button className="project-image-button" onClick={goToDetails}><img className="project-image" src={image} alt={`${title} website`} /></button>
       :
-      <button className="project-image-button"><img className="project-image" src={image} alt={"building, in process"} /></button>
+        <button className="project-image-button"><img className="project-image" src={image} alt={"building, in process"} /></button>
       }
-      
+
       <h2 className="project-title">{title}</h2>
       <p className="project-description">{description}</p>
       {
