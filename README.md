@@ -36,6 +36,13 @@
 
 ---
 
+## WireFrame Links:
+- [Computer View](https://www.figma.com/file/kXUBRYFFM7zFiqyvxQHht4/Portfolio-Project-Laptop?type=design&node-id=0-1&mode=design&t=10eh6RxGkiL0efYA-0)
+
+- [Mobile View](https://www.figma.com/proto/5t7Z1Z1CFgED6DTIMPOevM/Portfolio-Project-(phone)?node-id=8-34&starting-point-node-id=8%3A34)
+
+---
+
 ## Live Site Link:
 - [My Portfolio](https://osharpesportfolio.netlify.app)
 
