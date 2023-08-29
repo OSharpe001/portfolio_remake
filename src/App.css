@@ -91,7 +91,7 @@ header a {
 }
 
 .section-scroll{
-  width: 15%;
+  width: 35%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -134,19 +134,13 @@ header a {
 /* PROJECT SECTION STYLES */
 #projects-section {
   min-height: 104vh;
-  height:max-content;
   color: aliceblue;
   background-image: linear-gradient(to right, blue, #2A4365);
-  /* justify-content: center; */
-  /* justify-self: center; */
-  /* justify-items: center; */
-  /* align-content: center; */
-  /* align-items: center; */
-  /* align-self: center; */
 }
 .projects {
   justify-items: center;
   width: 95%;
+  max-height: 85vh;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
