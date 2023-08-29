@@ -1,9 +1,14 @@
 import React from 'react';
 
-export default function ProjectDetailPage() {
+export default function ProjectDetailPage({ title, details, image}) {
   return (
-    <div>
+    <section className="details-page">
         <h1>ProjectDetailPage</h1>
-    </div>
+        <img src={image} alt={`${title} web app`} />
+        <h2>{title}</h2>
+        <p>{details}</p>
+
+
+    </section>
   );
 };
