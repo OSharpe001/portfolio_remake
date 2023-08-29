@@ -134,7 +134,7 @@ export default function LandingSection() {
           />
           <p className="error-message">{commentErrorMessage}</p>
 
-          <button className="form-button"  disabled={disabled} onClick={handleSubmit}>
+          <button className="form-button"  disabled={incomplete} onClick={handleSubmit}>
             {
               sendEmail({
                 name: name,
