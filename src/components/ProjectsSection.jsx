@@ -2,9 +2,9 @@ import { projects } from "../assets/componentLists/projectList";
 import ProjectCard from "./ProjectCard";
 
 
-export default function ProjectsSection() {
-  // console.log("FIRST PROJECT IN THE LIST'S INFO: ", projects[0]);
+export default function ProjectsSection({ setForm }) {
 
+  // console.log("PROJECTSECTION'S PROJECTS INFO: ", projects);
   return (
       <section id="projects-section">
         <h1 className="banner">Featured Projects</h1>
@@ -14,10 +14,13 @@ export default function ProjectsSection() {
               key={i}
               title={project.title}
               description={project.description}
+              details={project.details}
               image={project.image}
               site={project.site}
               github={project.githubLink}
               position={project.position}
+              techUsed={project.techUsed}
+              setForm={setForm}
             />
           ))}
         </div>
