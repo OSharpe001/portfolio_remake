@@ -328,8 +328,44 @@ textarea {
 
 /* DETAILS PAGE STYLES */
 .details-page {
-  min-height: 98vh;
-  background-image:  radial-gradient(circle, #2A4365, blue);
+  min-height: 100vh;
+  padding: 20px;
+  color: aliceblue;
+  background-image: radial-gradient(circle, #2A4365, blue);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.details-h1 {
+  font-size: 20pt;
+  text-decoration: underline;
+}
+.details-image {
+  width: 80%;
+  margin: 4vh auto;
+}
+.details-title {
+  /* text-align: left; */
+  text-decoration: underline;
+}
+.details {
+  font-size: 16;
+}
+.details-tech-used {
+  font-size: 16;
+}
+.details-site-button, .details-github-button {
+  width: max-content;
+  margin: 20px auto;
+  font-size: 12pt;
+}
+.details-site-link, .details-github-link {
+  color: blue;
+  text-decoration: none;
+}
+.details-site-link:hover, .details-github-link:hover {
+  color: grey;
+  text-decoration: underline;
 }
 
 
