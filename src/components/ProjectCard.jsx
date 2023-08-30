@@ -1,20 +1,28 @@
 import { useNavigate } from 'react-router-dom';
-import ProjectDetailPage from './ProjectDetailPage';
 
-export default function ProjectCard({ title, description, image, site }) {
+export default function ProjectCard({ title, description, image, site, github, details, position, techUsed, setForm }) {
 
   const navigate = useNavigate();
 
   const goToDetails = () => {
+    setForm({
+      title: title,
+      details: details,
+      image: image,
+      site: site,
+      github: github,
+      techUsed: techUsed,
+    });
     navigate("/details");
   };
+
 
   return (
     <div className="project-card">
       {site ?
-        <button className="project-image-button" onClick={goToDetails}><img className="project-image" src={image} alt={`${title} website`} /></button>
+        <button className="project-image-button" onClick={goToDetails}><img className={`project-image ${position}`} src={image} alt={`${title} website`} /></button>
       :
-        <button className="project-image-button"><img className="project-image" src={image} alt={"building, in process"} /></button>
+        <button className="project-image-button"><img className={`project-image ${position}`} src={image} alt={"building, in process"} /></button>
       }
 
       <h2 className="project-title">{title}</h2>
@@ -35,11 +43,6 @@ export default function ProjectCard({ title, description, image, site }) {
           null
       }
       <div className="hidden">
-        <ProjectDetailPage
-          title={title}
-          description={description}
-          image={image}
-        />
       </div>
     </div>
   );
