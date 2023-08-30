@@ -88,5 +88,3 @@ profile when I press the StackOverflow icon in the navbar.
 2. **Make my Featured Projects section a slideshow-like format.**
 
 3. **Change my profile picture into a button that will bring users to the "About Me" page.**
-
-4. **Fix the project pictures' buttons so that they will bring me to a fleshed-out Project Details page for each particular project.**
