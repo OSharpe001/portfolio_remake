@@ -414,7 +414,7 @@ footer {
     right: 2vw;
     top: 7vh;
     text-align: left;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     border-radius: 7px;
     background-color: rgba(42, 67, 101, .8);
@@ -471,10 +471,19 @@ footer {
   /* PROJECT SECTION STYLES */
   #projects-section {
     padding-top: .5vh;
-    min-height: 140vh;
+    min-height: 145vh;
     /* height: max-content; */
   }
+  .banner {
+    padding-top: 20px;
+  }
+  .project-image-button {
+    max-height: 300px;
+    min-width: 115%;
+    margin: -1.5vh auto auto -3vw;
+  }
 }
+
 @media (max-width: 350px) {
   .landing {
     margin: -3vh auto;
@@ -488,5 +497,13 @@ footer {
   }
   .declaration {
     font-size: 28pt;
+  }
+  /* PROJECT SECTION STYLES */
+  #projects-section {
+    min-height: 170vh;
+    /* height: max-content; */
+  }
+  .banner {
+    padding-top: 10px;
   }
 }
