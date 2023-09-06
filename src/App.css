@@ -83,7 +83,6 @@ header a {
   justify-content: space-between;
   align-items: center;
   margin: auto 0 auto 10vw;
-  /* border: 2px solid red; */
 }
 
 .icons {
@@ -109,10 +108,6 @@ header a {
 }
 
 /* LANDING SECTION STYLES */
-/* .console-greeting{
-  font-size: 14pt;
-} */
-
 .profile-pic {
   width: 120px;
   border-radius: 50%;
@@ -128,7 +123,6 @@ header a {
 }
 
 .introduction {
-  /* font-size: 14pt; */
   margin-bottom: 10vh;
 }
 
@@ -143,6 +137,7 @@ header a {
   color: aliceblue;
   background-image: linear-gradient(to right, blue, #2A4365);
 }
+
 .banner {
   font-size: 20pt;
   text-align: left;
@@ -150,6 +145,7 @@ header a {
   padding-top: 40px;
   text-decoration: underline;
 }
+
 .projects {
   justify-items: center;
   width: 95%;
@@ -159,12 +155,11 @@ header a {
   display: grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
   grid-gap: 20px;
-  /* border: 2px solid aliceblue; */
 }
+
 .project-card {
   width: 90%;
   max-width: 500px;
-  /* height: min-content; */
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -173,24 +168,30 @@ header a {
   border-radius: 16px;
   border: 1px solid blue;
 }
+
 .project-image-button {
   max-height: 300px;
   border-radius: 16px 16px 0 0;
 }
+
 .project-image {
   max-height: 276px;
   max-width: 484px;
   width: 100%;
   border-radius: 16px 16px 0 0;
 }
+
 .project-title {
   text-decoration: underline;
   margin-bottom: 0;
 }
+
 .project-description{
   font-size: 14pt;
 }
-.projects-left {
+
+/* STYLES FOR SLIDESHOW OF PROJECTS */
+/* .projects-left {
   z-index: 1;
 }
 .projects-center {
@@ -198,25 +199,24 @@ header a {
 }
 .projects-right {
   z-index: 1;
-}
+} */
+
 .site-button {
-  /* width: 95%; */
-  /* position:relative; */
-  /* bottom: 5px; */
   width: max-content;
   align-self: center;
   background-color: aliceblue;
   border-radius: 10px;
 }
+
 .site-button:hover {
   text-decoration: underline;
 }
+
 .site-button a {
   font-size: 12pt;
   text-decoration: none;
-  /* background-color: yellow; */
-  /* padding: 0 42%; */
 }
+
 .site-arrow {
   height: 10px;
   margin: 0 0 0 10px;
@@ -302,12 +302,14 @@ textarea {
   overflow: hidden;
   color: aliceblue;
   background-color: transparent;
+  box-shadow: -1px 1px 5px aliceblue;
   border-radius: 5px;
   border: 1px ridge aliceblue;
 }
 
 .form button:disabled {
   cursor: not-allowed;
+  box-shadow: none;
   border: 1px ridge red;
 }
 
@@ -334,38 +336,44 @@ textarea {
   flex-direction: column;
   text-align: center;
 }
+
 .details-h1 {
   font-size: 20pt;
   text-decoration: underline;
 }
+
 .details-image {
   width: 80%;
   margin: 4vh auto;
 }
+
 .details-title {
-  /* text-align: left; */
   text-decoration: underline;
 }
+
 .details {
   font-size: 16;
 }
+
 .details-tech-used {
   font-size: 16;
 }
+
 .details-site-button, .details-github-button {
   width: max-content;
   margin: 20px auto;
   font-size: 12pt;
 }
+
 .details-site-link, .details-github-link {
   color: blue;
   text-decoration: none;
 }
+
 .details-site-link:hover, .details-github-link:hover {
   color: grey;
   text-decoration: underline;
 }
-
 
 /* FOOTER STYLES */
 footer {
@@ -386,6 +394,7 @@ footer {
   .desktop {
     display: none;
   }
+
   /* HEADER STYLING */
   .nav-icon {
     max-height: 100%;
@@ -394,10 +403,12 @@ footer {
     margin-right: 3vw;
     border-radius: 7px;
   }
+
   .nav-icon-img {
     width: 35px;
     background-color: aliceblue;
   }
+
   .section-scroll-list {
     width: max-content;
     padding: 1vh 1vw;
@@ -415,9 +426,11 @@ footer {
     box-shadow: -1px 1px 8px aliceblue;
     border: solid 2px blue;
   }
+
   .shift-page-link {
     margin: .75vh 0;
   }
+
   .icon-nav {
     width: 70%;
     display: flex;
@@ -425,8 +438,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin: auto 0 auto 3vw;
-    /* border: 2px solid red; */
   }
+
   /* LANDING SECTION STYLES */
   .landing {
     margin: -3vh auto;
@@ -434,16 +447,20 @@ footer {
     height: 81vh;
     background-image: linear-gradient(to left, blue, #2A4365);
   }
+
   .introduction {
     margin-bottom: 10vh;
   }
+
   .declaration {
     font-size: 27pt;
   }
+
   /* PROJECT SECTION STYLES */
   .banner {
     font-size: 25pt;
   }
+
   /* CONTACTME SECTION STYLES */
   #contactme-section {
     margin-top: -3vh;
@@ -451,9 +468,11 @@ footer {
     padding-bottom: 20vh;
     height: 77vh;
   }
+
   form {
     width: 90%;
   }
+
   .form button {
     max-height: max-content;
     margin-top: 2vh;
@@ -468,29 +487,32 @@ footer {
     height: 86vh;
     background-image: linear-gradient(to left, blue, #2A4365);
   }
+
   .introduction {
-    /* font-size: 14pt; */
     margin-bottom: 10vh;
   }
+
   .declaration {
     font-size: 27pt;
   }
+
   /* PROJECT SECTION STYLES */
   #projects-section {
     padding-top: .5vh;
     min-height: 145vh;
-    /* height: max-content; */
   }
+
   .banner {
     padding-top: 20px;
     font-size: 25pt;
-    /* border: 2px solid red; */
   }
+
   .project-image-button {
     max-height: 300px;
     min-width: 115%;
     margin: -1.5vh auto auto -3vw;
   }
+
   /* CONTACTME SECTION STYLES */
   #contactme-section {
     padding-bottom: 30vh;
@@ -505,27 +527,33 @@ footer {
     height: 91vh;
     background-image: linear-gradient(to left, blue, #2A4365);
   }
+
   .introduction {
-    /* font-size: 14pt; */
     margin-bottom: 5vh;
   }
+
   .declaration {
     font-size: 28pt;
   }
+
   /* PROJECT SECTION STYLES */
   #projects-section {
     min-height: 175vh;
   }
+
   .banner {
     padding-top: 10px;
   }
+
   /* CONTACTME SECTION STYLES */
   #contactme-section {
     padding-bottom: 40vh;
   }
+
   .form button {
     margin-top: 3vh;
   }
+  
   .form a {
     padding: 1vh 0vw;
   }
