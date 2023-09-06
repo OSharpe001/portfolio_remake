@@ -500,6 +500,7 @@ footer {
   #projects-section {
     padding-top: .5vh;
     min-height: 145vh;
+    padding-bottom: 5vh;
   }
 
   .banner {
