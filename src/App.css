@@ -222,10 +222,6 @@ header a {
   margin: 0 0 0 10px;
 }
 
-
-
-
-
 /* CONTACTME SECTION STYLES */
 #contactme-section {
   margin-top: -3vh;
@@ -312,6 +308,7 @@ textarea {
 
 .form button:disabled {
   cursor: not-allowed;
+  border: 1px ridge red;
 }
 
 .form a {
@@ -383,22 +380,19 @@ footer {
   margin-bottom: -2vh;
 }
 
-/* MOBILE STYLES */
-/* GENERAL STYLING */
+/* --MOBILE STYLES-- */
 @media (max-width: 900px) {
+  /* GENERAL STYLING */
   .desktop {
     display: none;
   }
   /* HEADER STYLING */
   .nav-icon {
-    /* max-width: 12vw; */
-    /* min-width: 50px; */
     max-height: 100%;
     display: flex;
     padding: 0;
     margin-right: 3vw;
     border-radius: 7px;
-    /* border: 2px solid red; */
   }
   .nav-icon-img {
     width: 35px;
@@ -433,6 +427,7 @@ footer {
     margin: auto 0 auto 3vw;
     /* border: 2px solid red; */
   }
+  /* LANDING SECTION STYLES */
   .landing {
     margin: -3vh auto;
     padding-top: 30%;
@@ -440,21 +435,33 @@ footer {
     background-image: linear-gradient(to left, blue, #2A4365);
   }
   .introduction {
-    /* font-size: 14pt; */
     margin-bottom: 10vh;
   }
   .declaration {
-    font-size: 30pt;
+    font-size: 27pt;
   }
-
   /* PROJECT SECTION STYLES */
-  #projects-section {
-    min-height: 130vh;
-    height: max-content;
+  .banner {
+    font-size: 25pt;
+  }
+  /* CONTACTME SECTION STYLES */
+  #contactme-section {
+    margin-top: -3vh;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    height: 77vh;
+  }
+  form {
+    width: 90%;
+  }
+  .form button {
+    max-height: max-content;
+    margin-top: 2vh;
   }
 }
 
 @media (max-width: 380px) {
+  /* LANDING SECTION STYLES */
   .landing {
     margin: -3vh auto;
     padding-top: 25%;
@@ -466,7 +473,7 @@ footer {
     margin-bottom: 10vh;
   }
   .declaration {
-    font-size: 30pt;
+    font-size: 27pt;
   }
   /* PROJECT SECTION STYLES */
   #projects-section {
@@ -476,19 +483,26 @@ footer {
   }
   .banner {
     padding-top: 20px;
+    font-size: 25pt;
+    /* border: 2px solid red; */
   }
   .project-image-button {
     max-height: 300px;
     min-width: 115%;
     margin: -1.5vh auto auto -3vw;
   }
+  /* CONTACTME SECTION STYLES */
+  #contactme-section {
+    padding-bottom: 30vh;
+  }
 }
 
 @media (max-width: 350px) {
+  /* LANDING SECTION STYLES */
   .landing {
     margin: -3vh auto;
     padding-top: 15%;
-    height: 90vh;
+    height: 91vh;
     background-image: linear-gradient(to left, blue, #2A4365);
   }
   .introduction {
@@ -500,10 +514,19 @@ footer {
   }
   /* PROJECT SECTION STYLES */
   #projects-section {
-    min-height: 170vh;
-    /* height: max-content; */
+    min-height: 175vh;
   }
   .banner {
     padding-top: 10px;
+  }
+  /* CONTACTME SECTION STYLES */
+  #contactme-section {
+    padding-bottom: 40vh;
+  }
+  .form button {
+    margin-top: 3vh;
+  }
+  .form a {
+    padding: 1vh 0vw;
   }
 }
