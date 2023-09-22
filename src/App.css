@@ -172,6 +172,11 @@ header a {
 .project-image-button {
   max-height: 300px;
   border-radius: 16px 16px 0 0;
+  background-color: blue;
+}
+
+.project-image-button:hover {
+  background-color: aliceblue;
 }
 
 .project-image {

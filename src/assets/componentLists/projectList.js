@@ -1,4 +1,26 @@
 export const projects = [
+  {
+    title: "Dev^2",
+    description:
+      "Dev Squared is a developer's greatest asset for development! Create new blogs and document your experience for the progeny!",
+      details: `NOT FILLED IN, AS YET...`,
+      techUsed: "TECHNOLOGY USED: ",
+    image: require("../images/projectPics/dev_squared.png"),
+    site: "https://devsquared.onrender.com",
+    githubLink: "https://github.com/OSharpe001/dev_squared_app",
+    position: "center"
+  },
+  {
+    title: "Anime Hunter",
+    description:
+      `Anime searches made easy! You can count on your friendly, neighborhood Anime Hunter's Guild for the best info for your quarry!`,
+      details: `NOT FILLED IN, AS YET...`,
+      techUsed: "TECHNOLOGY USED: ",
+    image: require("../images/projectPics/anime_hunter.png"),
+    site: "https://animehunterguild.netlify.app",
+    githubLink: "https://github.com/OSharpe001/anime_hunter",
+    position: "right"
+  },
     {
       title: "Letter to Success",
       description:
@@ -9,7 +31,7 @@ export const projects = [
       image: require("../images/projectPics/letter_to_success.png"),
       site: "https://lettertosuccess.netlify.app",
       githubLink: "https://github.com/OSharpe001/letter-to-success",
-      position: "center"
+      position: "right"
     },
     // {
     //   title: "Little Lemon",
@@ -26,8 +48,7 @@ export const projects = [
       title: "Our Tip Calculator",
       description:
         "An intuitive tip calculator for any occasion.",
-        details: `My first vanity project after learning React! This took me a month and a week to
-        complete (2/2023 - 4/2023)!`,
+        details: `NOT FILLED IN, AS YET...`,
         techUsed: "TECHNOLOGY USED: ",
       image: require("../images/projectPics/our_tip_calculator.png"),
       site: "https://ourtipcalculator.netlify.app",
@@ -38,8 +59,7 @@ export const projects = [
       title: "Pokemon Memory Match Game",
       description:
         `A tournament-style, card memory-match game that's fun for all ages!`,
-        details: `My first vanity project after learning React! This took me a month and a week to
-        complete (2/2023 - 4/2023)!`,
+        details: `NOT FILLED IN, AS YET...`,
         techUsed: "TECHNOLOGY USED: ",
       image: require("../images/projectPics/poke_memory_match.png"),
       site: "https://osharpe001.github.io",
@@ -61,9 +81,8 @@ export const projects = [
       title: "More to Come",
       description:
         "Just like a city's skyline, there's more projects on the horizon. . .",
-      details: `My first vanity project after learning React! This took me a month and a week to
-      complete (2/2023 - 4/2023)!`,
-      techUsed: "TECHNOLOGY USED: ",
+      details: `I'll keep on building!`,
+      techUsed: "TECHNOLOGY USED: The latest technologies",
       image: require("../images/projectPics/build_higher.jpeg"),
       site: null,
       githubLink: null,
