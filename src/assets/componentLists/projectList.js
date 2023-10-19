@@ -1,12 +1,12 @@
 export const projects = [
   {
-    title: "Dev^2",
+    title: "Dev Squared",
     description:
       "Dev Squared is a developer's greatest asset for development! Create new blogs and document your experience for the progeny!",
       details: `NOT FILLED IN, AS YET...`,
       techUsed: "TECHNOLOGY USED: ",
     image: require("../images/projectPics/dev_squared.png"),
-    site: "https://devsquared.onrender.com",
+    site: "https://devsquared-9dbdb24d78db.herokuapp.com",
     githubLink: "https://github.com/OSharpe001/dev_squared_app",
     position: "center"
   },
