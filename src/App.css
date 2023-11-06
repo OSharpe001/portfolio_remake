@@ -9,7 +9,8 @@
   background-color: black;
 }
 
-.hidden, .mobile {
+.hidden,
+.mobile {
   display: none;
 }
 
@@ -31,18 +32,22 @@ header {
     position: sticky;
     top: -100px;
   }
+
   25% {
     position: sticky;
     top: -75px;
   }
+
   50% {
     position: sticky;
     top: -50px;
   }
+
   75% {
     position: sticky;
     top: -25px;
   }
+
   100% {
     position: sticky;
     top: 0;
@@ -54,18 +59,22 @@ header {
     position: sticky;
     top: 0;
   }
+
   25% {
     position: sticky;
     top: -25px;
   }
+
   50% {
     position: sticky;
     top: -50px;
   }
+
   75% {
     position: sticky;
     top: -75px;
   }
+
   100% {
     position: sticky;
     top: -100px;
@@ -90,7 +99,7 @@ header a {
   cursor: pointer;
 }
 
-.section-scroll{
+.section-scroll {
   width: 35%;
   display: flex;
   flex-direction: row;
@@ -153,7 +162,7 @@ header a {
   max-height: max-content;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(2,minmax(0,1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-gap: 20px;
 }
 
@@ -191,7 +200,7 @@ header a {
   margin-bottom: 0;
 }
 
-.project-description{
+.project-description {
   font-size: 14pt;
 }
 
@@ -265,7 +274,8 @@ form h1 {
   text-align: left;
 }
 
-input, textarea {
+input,
+textarea {
   font-size: 12pt;
   width: 97%;
   margin: 0 auto;
@@ -364,18 +374,21 @@ textarea {
   font-size: 16;
 }
 
-.details-site-button, .details-github-button {
+.details-site-button,
+.details-github-button {
   width: max-content;
   margin: 20px auto;
   font-size: 12pt;
 }
 
-.details-site-link, .details-github-link {
+.details-site-link,
+.details-github-link {
   color: blue;
   text-decoration: none;
 }
 
-.details-site-link:hover, .details-github-link:hover {
+.details-site-link:hover,
+.details-github-link:hover {
   color: grey;
   text-decoration: underline;
 }
@@ -395,6 +408,7 @@ footer {
 
 /* --MOBILE STYLES-- */
 @media (max-width: 900px) {
+
   /* GENERAL STYLING */
   .desktop {
     display: none;
@@ -434,6 +448,7 @@ footer {
 
   .shift-page-link {
     margin: .75vh 0;
+    font-size: 16pt;
   }
 
   .icon-nav {
@@ -485,6 +500,7 @@ footer {
 }
 
 @media (max-width: 380px) {
+
   /* LANDING SECTION STYLES */
   .landing {
     margin: -3vh auto;
@@ -514,10 +530,68 @@ footer {
   }
 
   .project-image-button {
-    max-height: 300px;
-    min-width: 115%;
-    margin: -1.5vh auto auto -3vw;
+    min-width: 100%;
+    margin: auto;
   }
+
+  .projects {
+    margin-bottom: 20px;
+    display:inline-block;
+  }
+
+  .project-card {
+    margin: 0 auto 40px;
+  }
+
+  /* -------------------------- */
+  .project-image {
+    max-height: 276px;
+    max-width: 484px;
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .project-title {
+    text-decoration: underline;
+    margin-bottom: 0;
+  }
+
+  .project-description {
+    font-size: 14pt;
+  }
+
+  .site-button {
+    width: max-content;
+    align-self: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+
+  .site-button:hover {
+    text-decoration: underline;
+  }
+
+  .site-button a {
+    font-size: 12pt;
+    text-decoration: none;
+  }
+
+  .site-arrow {
+    height: 10px;
+    margin: 0 0 0 10px;
+  }
+
+  /* STYLES FOR SLIDESHOW OF PROJECTS */
+  /* .projects-left {
+  z-index: 1;
+  }
+  .projects-center {
+    z-index: 2;
+  }
+  .projects-right {
+    z-index: 1;
+  } */
+  /* -------------------------- */
 
   /* CONTACTME SECTION STYLES */
   #contactme-section {
@@ -526,6 +600,7 @@ footer {
 }
 
 @media (max-width: 350px) {
+
   /* LANDING SECTION STYLES */
   .landing {
     margin: -3vh auto;
@@ -551,6 +626,8 @@ footer {
     padding-top: 10px;
   }
 
+  
+
   /* CONTACTME SECTION STYLES */
   #contactme-section {
     padding-bottom: 40vh;
@@ -559,7 +636,7 @@ footer {
   .form button {
     margin-top: 3vh;
   }
-  
+
   .form a {
     padding: 1vh 0vw;
   }
