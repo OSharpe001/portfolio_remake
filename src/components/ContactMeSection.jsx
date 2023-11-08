@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { sendEmail } from "./EmailMe";
 
+
 export default function LandingSection() {
 
   const [name, setName] = useState("");
