@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import { useState } from "react";
 import './App.css';
-import { AboutMe, Footer, Header, Main, ProjectDetailPage } from './components';
+import { Footer, Header, Main, ProjectDetailPage } from './components';
 
 
 export default function App() {
@@ -25,7 +25,6 @@ export default function App() {
         <Route path="/details" element={<ProjectDetailPage
                                                         form={form}
                                                       />}/>
-        <Route path="/aboutme" element={<AboutMe />}/>
       </Routes>
       <Footer />
     </div>
