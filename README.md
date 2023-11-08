@@ -1,38 +1,12 @@
 # Welcome to my Web Portfolio's Readme.
-**Here, we'll discuss issues that I couldn't (yet) overcome, technologies used, a "User Story" and cap it all off with my stretch goals for this app. I'll also provide the link to my site, within.**
+**Here, you'll find a few wire frames, a "User Story" and my stretch goals for this app. I'll also provide the link to my site, within.**
 
 ---
 
 ## App Description
-**My portfolio app is the one-stop shop to check out my latest and greates creations. Here, you'll be able to get a quick view of my best apps and my resume, get all the juicy details of what technologies I utilized to create them, and even be able to visit the site and/or the GitHub repo!**
+**My portfolio app is the one-stop shop to check out my latest and greates creations. Here, you'll be able to get a quick view of my best apps and my resume, get all the juicy details of what technologies I utilized to create them, and even be able to visit their prospective site and the GitHub repo!**
 
 **I truly hope that you'll enjoy your time both here and testing out these apps!**
-
----
-
-## Issues I couldn't resolve:
-
-- **None, so far...**
-
----
-
-## Technologies Used:
-
-- React Router: Used to set up a multi-page-like app.
-- React/JSX: A library that combines JavaScript and HTML functionality.
-- JavaScript: Used to adapt interactivity to a web page, making it a "web application".
-- HTML: The "document" section of a web page. Holds all the document's text.
-- CSS: Used to apply styling to the web page document.
-- **HONORABLE MENTIONS**
-- JavaScript's "window" reference: Used to get info about what's happening in the browser's current window (like mouse location).
-
----
-
-## Installation of Non-Standard Technologies:
-
-- React: created app template by typing "npx create-react-app ." in the terminal for my project's folder.
-
-- React Router: type "npm i react-router-dom" in my project's terminal.
 
 ---
 
@@ -83,8 +57,5 @@ profile when I press the StackOverflow icon in the navbar.
 
 ## Stretch Goals:
 
-1. **Make app responsive for mobile.**
-
 2. **Make my Featured Projects section a slideshow-like format.**
 
-3. **Change my profile picture into a button that will bring users to the "About Me" page.**
