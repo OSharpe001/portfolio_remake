@@ -9,6 +9,7 @@ export default function App() {
   const [form, setForm] = useState({
     title: "",
     details: "",
+    timeLine: "",
     image: "",
     site: "",
     github: "",

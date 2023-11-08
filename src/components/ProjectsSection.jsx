@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCard";
 
 export default function ProjectsSection({ setForm }) {
 
-  // console.log("PROJECTSECTION'S PROJECTS INFO: ", projects);
   return (
       <section id="projects-section">
         <h1 className="banner">Featured Projects</h1>
@@ -15,6 +14,7 @@ export default function ProjectsSection({ setForm }) {
               title={project.title}
               description={project.description}
               details={project.details}
+              timeLine={project.timeLine}
               image={project.image}
               site={project.site}
               github={project.githubLink}

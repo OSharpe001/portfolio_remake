@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 
-export default function ProjectCard({ title, description, image, site, github, details, position, techUsed, setForm }) {
+
+export default function ProjectCard({ title, description, image, site, github, details, timeLine, position, techUsed, setForm }) {
 
   const navigate = useNavigate();
 
@@ -8,6 +9,7 @@ export default function ProjectCard({ title, description, image, site, github, d
     setForm({
       title: title,
       details: details,
+      timeLine: timeLine,
       image: image,
       site: site,
       github: github,
