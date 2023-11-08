@@ -112,7 +112,8 @@ header a {
   text-decoration: none;
 }
 
-.shift-page-link:hover {
+.shift-page-link:hover,
+.underlined {
   text-decoration: underline;
 }
 
@@ -173,6 +174,7 @@ header a {
   flex-direction: column;
   padding: 10px;
   text-align: left;
+  justify-content: space-between;
   box-shadow: -1px 1px 13px aliceblue;
   border-radius: 16px;
   border: 1px solid blue;
@@ -352,26 +354,21 @@ textarea {
   text-align: center;
 }
 
-.details-h1 {
-  font-size: 20pt;
-  text-decoration: underline;
-}
-
 .details-image {
   width: 80%;
   margin: 4vh auto;
 }
 
 .details-title {
+  font-size: 20pt;
   text-decoration: underline;
 }
 
-.details {
-  font-size: 16;
-}
-
+.details,
 .details-tech-used {
-  font-size: 16;
+  font-size: 20pt;
+  text-align: start;
+  padding: 0 30pt;
 }
 
 .details-site-button,
@@ -481,6 +478,22 @@ footer {
     font-size: 25pt;
   }
 
+  /* DETAILS PAGE STYLES */
+  .details-image {
+    width: 95%;
+  }
+
+  .details-title {
+    font-size: 20pt;
+    text-decoration: underline;
+  }
+
+  .details,
+  .details-tech-used {
+    font-size: 16pt;
+    padding: 0 10pt;
+  }
+
   /* CONTACTME SECTION STYLES */
   #contactme-section {
     margin-top: -3vh;
@@ -536,62 +549,17 @@ footer {
 
   .projects {
     margin-bottom: 20px;
-    display:inline-block;
+    display: inline-block;
   }
 
   .project-card {
     margin: 0 auto 40px;
   }
 
-  /* -------------------------- */
-  .project-image {
-    max-height: 276px;
-    max-width: 484px;
-    width: 100%;
-    border-radius: 16px 16px 0 0;
-  }
-
-  .project-title {
-    text-decoration: underline;
-    margin-bottom: 0;
-  }
-
   .project-description {
-    font-size: 14pt;
+    font-size: 16pt;
   }
 
-  .site-button {
-    width: max-content;
-    align-self: center;
-    background-color: aliceblue;
-    border-radius: 10px;
-  }
-
-  .site-button:hover {
-    text-decoration: underline;
-  }
-
-  .site-button a {
-    font-size: 12pt;
-    text-decoration: none;
-  }
-
-  .site-arrow {
-    height: 10px;
-    margin: 0 0 0 10px;
-  }
-
-  /* STYLES FOR SLIDESHOW OF PROJECTS */
-  /* .projects-left {
-  z-index: 1;
-  }
-  .projects-center {
-    z-index: 2;
-  }
-  .projects-right {
-    z-index: 1;
-  } */
-  /* -------------------------- */
 
   /* CONTACTME SECTION STYLES */
   #contactme-section {
@@ -626,7 +594,7 @@ footer {
     padding-top: 10px;
   }
 
-  
+
 
   /* CONTACTME SECTION STYLES */
   #contactme-section {
