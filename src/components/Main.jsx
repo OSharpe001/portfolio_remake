@@ -1,4 +1,3 @@
-import React from 'react';
 import LandingSection from './LandingSection';
 import ProjectsSection from './ProjectsSection';
 import ContactMeSection from './ContactMeSection';

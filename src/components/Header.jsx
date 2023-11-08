@@ -6,7 +6,7 @@ import close from "../assets/images/icons/close.png";
 
 export default function Header() {
 
-  // PEAKING HEADER USESTATES AND FUNCTIONS
+  // PEEKING HEADER USESTATES AND FUNCTIONS
   const [scrollPosition, setScrollPosition] = useState({
       y: 0,
     });
