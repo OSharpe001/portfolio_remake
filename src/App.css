@@ -366,7 +366,7 @@ textarea {
 
 .details,
 .details-tech-used {
-  font-size: 20pt;
+  font-size: 16pt;
   text-align: start;
   padding: 0 30pt;
 }
@@ -490,7 +490,6 @@ footer {
 
   .details,
   .details-tech-used {
-    font-size: 16pt;
     padding: 0 10pt;
   }
 
