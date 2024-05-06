@@ -85,6 +85,7 @@ export default function Header() {
           <a aria-label="On Click" className="shift-page-link" onClick={handlePageShift("contactme")} href="/#contact-me">Contact Me</a>
           <a aria-label="On Click" className="shift-page-link" onClick={handlePageShift("projects")} href="/#projects">Projects</a>
           <a aria-label="On Click" className="shift-page-link"  target="_blank" rel="noreferrer" href="Omari_Sharpe_SE_Resume.pdf">My Resume</a>
+          <a aria-label="On Click" className="shift-page-link"  target="_blank" rel="noreferrer" href="run.sh"> </a>
         </nav>
     </header>
   );
