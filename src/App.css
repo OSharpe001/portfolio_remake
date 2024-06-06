@@ -146,6 +146,8 @@ header a {
   height: max-content;
   color: aliceblue;
   background-image: linear-gradient(to right, blue, #2A4365);
+  padding-bottom: 5vh;
+  /* border: 2px solid red; */
 }
 
 .banner {

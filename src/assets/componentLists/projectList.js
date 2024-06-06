@@ -63,17 +63,18 @@ export const projects = [
     githubLink: "https://github.com/OSharpe001/letter-to-success",
     position: "right"
   },
-  // {
-  //   title: "Little Lemon",
-  //   description:
-  //     "My rendition of a bistro's website, complete with online ordering for delivery.",
-  //   details: ``,
-  //   techUsed: "",
-  //   image: require("../images/little_lemon1.png"),
-  //   site: "https://littlelemonbistro.vercel.app",
-  //   githubLink: "https://github.com/OSharpe001/little-lemon",
-  //   position: "right"
-  // },
+  {
+    title: "Little Lemon",
+    description:
+      "My rendition of a bistro's website, complete with online ordering for delivery.",
+      timeLine: `This project took me a week for the MVP and just over a month to complete my personal additions (2/2023 - 2/2023).`,
+    details: `A capstone project from Meta's React course that I just had to flesh out! They only wanted the home and reservations pages but I knew I could do so much more. Just looking at it is making me hungry! 😅`,
+    techUsed: "JAVASCRIPT, HTML, CSS, REACT",
+    image: require("../images/projectPics/little_lemon1.png"),
+    site: "https://littlelemonbistro.vercel.app",
+    githubLink: "https://github.com/OSharpe001/little-lemon",
+    position: "right"
+  },
   // {
   //   title: "Our Tip Calculator",
   //   description:
@@ -96,15 +97,15 @@ export const projects = [
   //   githubLink: null,
   //   position: "right"
   // },
-  //   {
-  //     title: "More to Come",
-  //     description:
-  //       "Just like a city's skyline, there's more projects on the horizon. . .",
-  //     details: `I'll keep on building!`,
-  //     techUsed: "The latest technologies",
-  //     image: require("../images/projectPics/build_higher.jpeg"),
-  //     site: null,
-  //     githubLink: null,
-  //     position: "right"
-  //   },
+    {
+      title: "More to Come",
+      description:
+        "Just like a city's skyline, there's more projects on the horizon. . .",
+      details: `I'll keep on building!`,
+      techUsed: "The latest technologies",
+      image: require("../images/projectPics/build_higher.jpeg"),
+      site: null,
+      githubLink: null,
+      position: "right"
+    },
 ];
