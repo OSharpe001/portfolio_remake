@@ -130,7 +130,6 @@ header a {
   padding-top: 13vh;
   height: 87vh;
   color: aliceblue;
-  /* background-image: linear-gradient(to left, blue, #2A4365); */
   background-image: url(assets/images/projectPics/build_higher_background.jpeg);
   background-repeat: no-repeat;
   background-position: top center;
@@ -162,7 +161,6 @@ header a {
   color: aliceblue;
   background-image: linear-gradient(to right, blue, #2A4365);
   padding-bottom: 5vh;
-  /* border: 2px solid red; */
 }
 
 .banner {
@@ -478,10 +476,8 @@ footer {
   .landing {
     margin: -3vh auto;
     padding: 10% 0 0;
-    /* padding-top: -30%; */
     min-height: 92vh;
     overflow: hidden;
-    /* background-image: linear-gradient(to left, blue, #2A4365); */
   }
 
   .introduction {
@@ -536,7 +532,6 @@ footer {
   .landing {
     margin: -3vh auto;
     padding-top: 25%;
-    /* height: 86vh; */
   }
 
   .introduction {
@@ -590,7 +585,6 @@ footer {
     margin: -3vh auto;
     padding-top: 15%;
     height: 91vh;
-    background-image: linear-gradient(to left, blue, #2A4365);
   }
 
   .introduction {
