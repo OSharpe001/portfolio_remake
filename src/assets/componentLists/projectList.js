@@ -100,8 +100,7 @@ export const projects = [
   // },
     {
       title: "More to Come",
-      description:
-        "Just like a big city,. . . I keep on building",
+      description: "JUST LIKE A BIG CITY,. . . I KEEP ON BUILDING!",
       details: `I'll keep on building!`,
       techUsed: "The latest technologies",
       image: require("../images/projectPics/build_higher.jpeg"),
