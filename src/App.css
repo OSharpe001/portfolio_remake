@@ -128,12 +128,12 @@ header a {
 .landing {
   margin: -3vh auto;
   padding-top: 13vh;
-  height: 90vh;
+  height: 87vh;
   color: aliceblue;
   /* background-image: linear-gradient(to left, blue, #2A4365); */
-  background-image: url(assets/images/projectPics/build_higher.jpeg);
+  background-image: url(assets/images/projectPics/build_higher_background.jpeg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
 }
 
 .landing h1 {
