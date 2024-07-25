@@ -15,9 +15,6 @@
 }
 
 /* HEADER AND HIDING-NAV STYLES */
-h1 {
-  font-size: 25pt;
-}
 
 header {
   background-color: black;
@@ -133,7 +130,21 @@ header a {
   padding-top: 23vh;
   height: 75vh;
   color: aliceblue;
-  background-image: linear-gradient(to left, blue, #2A4365);
+  /* background-image: linear-gradient(to left, blue, #2A4365); */
+  background-image: url(assets/images/projectPics/build_higher.jpeg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.landing h1 {
+  -webkit-text-fill-color: aliceblue;
+  -webkit-text-stroke-color: rgb(42, 41, 41);
+  -webkit-text-stroke-width: .9px;
+  text-shadow: -3px 3px 2px rgb(42, 41, 41);
+}
+
+.greeting, .introduction {
+  font-size: 25pt;
 }
 
 .introduction {
