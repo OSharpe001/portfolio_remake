@@ -133,7 +133,7 @@ header a {
   /* background-image: linear-gradient(to left, blue, #2A4365); */
   background-image: url(assets/images/projectPics/build_higher.jpeg);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center center;
 }
 
 .landing h1 {
