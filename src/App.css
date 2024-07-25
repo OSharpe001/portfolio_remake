@@ -480,6 +480,7 @@ footer {
     padding: 10% 0 0;
     /* padding-top: -30%; */
     min-height: 92vh;
+    overflow: hidden;
     /* background-image: linear-gradient(to left, blue, #2A4365); */
   }
 
