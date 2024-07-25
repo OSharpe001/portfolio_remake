@@ -15,6 +15,10 @@
 }
 
 /* HEADER AND HIDING-NAV STYLES */
+h1 {
+  font-size: 25pt;
+}
+
 header {
   background-color: black;
   display: flex;
