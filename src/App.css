@@ -477,9 +477,10 @@ footer {
   /* LANDING SECTION STYLES */
   .landing {
     margin: -3vh auto;
-    padding-top: 30%;
-    height: 81vh;
-    background-image: linear-gradient(to left, blue, #2A4365);
+    padding: 10% 0 0;
+    /* padding-top: -30%; */
+    min-height: 92vh;
+    /* background-image: linear-gradient(to left, blue, #2A4365); */
   }
 
   .introduction {
@@ -534,12 +535,11 @@ footer {
   .landing {
     margin: -3vh auto;
     padding-top: 25%;
-    height: 86vh;
-    background-image: linear-gradient(to left, blue, #2A4365);
+    /* height: 86vh; */
   }
 
   .introduction {
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
   }
 
   .declaration {
