@@ -148,6 +148,7 @@ header a {
 
 .introduction {
   margin-bottom: 10vh;
+  /* border: 2px solid red; */
 }
 
 .declaration {
@@ -481,7 +482,8 @@ footer {
   }
 
   .introduction {
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
+    /* border: 2px solid red; */
   }
 
   .declaration {
