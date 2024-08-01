@@ -2,8 +2,7 @@ export const projects = [
   {
     title: "Anime Hunter",
     description:
-      `Anime searches made easy! You can count on your friendly, neighborhood
-      Anime Hunter's Guild for the best info for your quarry!`,
+      `Anime searches made easy! You can count on your Anime Hunter's Guild for the best info for your quarry!`,
     details: `Keeping practice with Async JavaScript, I decided to make an
       anime-search site to be proud of. It utilizes info gained from fetch calls
       to RapidAPI (namely Anime-DB). I also built in a function to save titles
@@ -20,7 +19,7 @@ export const projects = [
     title: "Little Lemon",
     description:
       "My rendition of a bistro's website, complete with online ordering for delivery.",
-      timeLine: `This project took me a week for the MVP and just over a month to complete my personal additions (2/2023 - 2/2023).`,
+    timeLine: `This project took me a week for the MVP and just over a month to complete my personal additions (2/2023 - 2/2023).`,
     details: `A capstone project from Meta's React course that I just had to flesh out! They only wanted the home and reservations pages but I knew I could do so much more. Just looking at it is making me hungry! 😅`,
     techUsed: "JAVASCRIPT, HTML, CSS, REACT",
     image: require("../images/projectPics/little_lemon1.png"),
@@ -75,7 +74,7 @@ export const projects = [
     githubLink: "https://github.com/OSharpe001/letter-to-success",
     position: "right"
   },
-  
+
   // {
   //   title: "Our Tip Calculator",
   //   description:
@@ -98,14 +97,14 @@ export const projects = [
   //   githubLink: null,
   //   position: "right"
   // },
-    {
-      title: "More to Come",
-      description: "JUST LIKE A BIG CITY,. . . I KEEP ON BUILDING!",
-      details: `I'll keep on building!`,
-      techUsed: "The latest technologies",
-      image: require("../images/projectPics/build_higher.jpeg"),
-      site: null,
-      githubLink: null,
-      position: "right"
-    },
+  {
+    title: "More to Come",
+    description: "JUST LIKE A BIG CITY,. . . I KEEP ON BUILDING!",
+    details: `I'll keep on building!`,
+    techUsed: "The latest technologies",
+    image: require("../images/projectPics/build_higher.jpeg"),
+    site: null,
+    githubLink: null,
+    position: "right"
+  },
 ];
