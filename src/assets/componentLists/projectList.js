@@ -27,23 +27,23 @@ export const projects = [
     githubLink: "https://github.com/OSharpe001/little-lemon",
     position: "right"
   },
-  {
-    title: "Dev Squared",
-    description:
-      `Dev Squared is a developer's greatest asset for development! Create
-      new blogs and document your experience for the progeny!`,
-    details: `Dev Squared is another self-challenge project that had to be
-      tackled as soon as I learned how to incorporate a back-end to my
-      JavaScript apps. I faced seemingly un-ending CORS issues during this app's
-      creation. It seriously had me tapping and calling for "Uncle" 😅! I still
-      hold deep dreams and aspirations for this blogging site...`,
-    timeLine: `This project is currently ongoing (9/2023 - Present).`,
-    techUsed: "JAVASCRIPT, HTML, CSS, MONGODB, EXPRESS, REACT, NODE, REST API, AXIOS,",
-    image: require("../images/projectPics/dev_squared.png"),
-    site: "https://devsquared-9dbdb24d78db.herokuapp.com",
-    githubLink: "https://github.com/OSharpe001/dev_squared_app",
-    position: "center"
-  },
+  // {
+  //   title: "Dev Squared",
+  //   description:
+  //     `Dev Squared is a developer's greatest asset for development! Create
+  //     new blogs and document your experience for the progeny!`,
+  //   details: `Dev Squared is another self-challenge project that had to be
+  //     tackled as soon as I learned how to incorporate a back-end to my
+  //     JavaScript apps. I faced seemingly un-ending CORS issues during this app's
+  //     creation. It seriously had me tapping and calling for "Uncle" 😅! I still
+  //     hold deep dreams and aspirations for this blogging site...`,
+  //   timeLine: `This project is currently ongoing (9/2023 - Present).`,
+  //   techUsed: "JAVASCRIPT, HTML, CSS, MONGODB, EXPRESS, REACT, NODE, REST API, AXIOS,",
+  //   image: require("../images/projectPics/dev_squared.png"),
+  //   site: "https://devsquared-9dbdb24d78db.herokuapp.com",
+  //   githubLink: "https://github.com/OSharpe001/dev_squared_app",
+  //   position: "center"
+  // },
   {
     title: "Pokemon Memory Match Game",
     description:
