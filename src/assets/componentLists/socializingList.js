@@ -1,8 +1,9 @@
 import email from "../images/socialIcons/email.png";
 import github from "../images/socialIcons/github.png";
 import linkedin from "../images/socialIcons/linkedin.png";
-import stackoverflow from "../images/socialIcons/stackoverflow.png";
-import twitter from "../images/socialIcons/twitter.png";
+// import stackoverflow from "../images/socialIcons/stackoverflow.png";
+import X from "../images/socialIcons/xIcon.png";
+import youtube from "../images/socialIcons/youtube.png";
 
 
 export const socials = [
@@ -19,11 +20,15 @@ export const socials = [
       url: "https://www.linkedin.com/in/omarisharpe",
     },
     {
-      icon: twitter,
+      icon: X,
       url: "https://twitter.com/OSharpe001",
     },
+    // {
+    //   icon: stackoverflow,
+    //   url: "https://stackoverflow.com/users/19149328/o-sharpe",
+    // },
     {
-      icon: stackoverflow,
-      url: "https://stackoverflow.com/users/19149328/o-sharpe",
+      icon: youtube,
+      url: "https://www.youtube.com/channel/UCSkr3q6LHUwPqWdCdQZY8ZA",
     },
   ];
