@@ -119,6 +119,7 @@ export default function LandingSection() {
             <option value="">Service Context?</option>
             <option value="Career Opportunity">Career Opportunity</option>
             <option value="Freelance Project Proposal">Freelance Project Proposal</option>
+            <option value="Tutoring">Tutoring For Me/My Child</option>
             <option value="Open Source Consultancy Session">Open Source Consultancy Session</option>
           </select>
           <p className="error-message">{typeErrorMessage}</p>
