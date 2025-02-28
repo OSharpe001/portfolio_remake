@@ -6,7 +6,7 @@ import { Footer, Header, Main, ProjectDetailPage } from './components';
 
 export default function App() {
 
-  const [form, setForm] = useState({
+  const [detailPage, setDetailPage] = useState({
     title: "",
     details: "",
     timeLine: "",
@@ -15,15 +15,38 @@ export default function App() {
     github: "",
   });
 
+  const handlePageShift = (anchor) => () => {
+    const id = `${anchor}-section`;
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    };
+    if (mobileNavOpen) {
+      toggleMobileNav();
+    };
+  };
+
+  // TOGGLE USESTATE AND FUNCTION FOR MOBILE SCREEN MENU
+  const [mobileNavOpen, setMobileNavOpen] = useState(false);
+  const toggleMobileNav = () => setMobileNavOpen(!mobileNavOpen);
+
   return (
     <div className="App">
-      <Header />
+      <Header
+            mobileNavOpen={mobileNavOpen}
+            toggleMobileNav={toggleMobileNav}
+            handlePageShift={handlePageShift}
+          />
       <Routes>
         <Route path="/" element={<Main
-                                    setForm={setForm}
+                                    setDetailPage={setDetailPage}
+                                    handlePageShift={handlePageShift}
                                   />}/>
         <Route path="/details" element={<ProjectDetailPage
-                                                        form={form}
+                                                        form={detailPage}
                                                       />}/>
       </Routes>
       <Footer />

@@ -3,13 +3,14 @@ import ProjectsSection from './ProjectsSection';
 import ContactMeSection from './ContactMeSection';
 
 
-export default function Main({ setForm }) {
+export default function Main({ setDetailPage, handlePageShift }) {
 
   return (
     <main>
-        <LandingSection />
+        <LandingSection 
+        handlePageShift={handlePageShift}/>
         <ProjectsSection
-                      setForm={setForm}
+                      setDetailPage={setDetailPage}
                       />
         <ContactMeSection />
     </main>
