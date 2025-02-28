@@ -4,19 +4,25 @@ import hamburger from "../assets/images/icons/hamburger.png";
 import close from "../assets/images/icons/close.png";
 
 
-export default function Header({handlePageShift, mobileNavOpen, toggleMobileNav}) {
+export default function Header({ handlePageShift, mobileNavOpen, toggleMobileNav }) {
 
   // PEEKING HEADER USESTATES AND FUNCTIONS
-  const [scrollPosition, setScrollPosition] = useState(0);
-  const [prevScrollPosition, setPreviousScrollPositiion] = useState(0);
-
+  const [scrollPosition, setScrollPosition] = useState({
+    y: 0,
+  });
+  const [prevScrollPosition, setPreviousScrollPositiion] = useState({
+    y: 0,
+  })
   const handleScrollPositionChange = (e) => {
-    setPreviousScrollPositiion(scrollPosition);
-    setScrollPosition(window.scrollY);
+    setPreviousScrollPositiion({
+      y: scrollPosition.y
+    },);
+    setScrollPosition({
+      y: window.scrollY
+    },);
   };
-
   window.addEventListener("scroll", handleScrollPositionChange);
-  let headerPos = scrollPosition > 0 && scrollPosition > prevScrollPosition ? "raise-nav" : null;
+  let headerPos = scrollPosition.y > 0 && scrollPosition.y > prevScrollPosition.y ? "hide" : "show";
 
   // AUTO HIDE MOBILE NAV WHEN SCROLLING DOWN
   if (mobileNavOpen && headerPos === "hide") {
@@ -24,8 +30,22 @@ export default function Header({handlePageShift, mobileNavOpen, toggleMobileNav}
   };
 
   return (
-    // <header className={headerPos === "hide" ? "raise-nav" : "drop-nav"}>
-    <header className={headerPos === "raise-nav" ? "raise-nav": "drop-nav"}>
+    <header
+      style={
+        headerPos === "hide" ?
+          {
+            position: "sticky",
+            top: "-100px",
+            animationName: "raise-nav"
+          }
+          :
+          {
+            position: "sticky",
+            top: "0",
+            animationName: "drop-nav"
+          }
+      }
+    >
       <nav className="icon-nav">
         {
           socials.map((socialLink) => (
@@ -46,7 +66,7 @@ export default function Header({handlePageShift, mobileNavOpen, toggleMobileNav}
       <nav className={mobileNavOpen ? "section-scroll-list mobile" : "section-scroll desktop"}>
         <a aria-label="On Click" className="shift-page-link" onClick={handlePageShift("contactme")} href="/#contact-me">Contact Me</a>
         <a aria-label="On Click" className="shift-page-link" onClick={handlePageShift("projects")} href="/#projects">Projects</a>
-        <a aria-label="On Click" className="shift-page-link" target="_blank" rel="noreferrer" href="Omari_Sharpe_FD_Resume.pdf">My Resume</a>
+        <a aria-label="On Click" className="shift-page-link" target="_blank" rel="noreferrer" href="OSharpe_FD_Resume.pdf">My Resume</a>
       </nav>
     </header>
   );
