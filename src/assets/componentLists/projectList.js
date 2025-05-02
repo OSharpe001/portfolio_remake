@@ -59,21 +59,21 @@ export const projects = [
     githubLink: "https://github.com/OSharpe001/OSharpe001.github.io",
     position: "right"
   },
-  // {
-  //   title: "Letter to Success",
-  //   description:
-  //     `My rendition of "Wheel of Fortune! A great way to wind-down after a
-  //     busy day of coding.`,
-  //   details: `My first vanity project after learning React. It was an idea
-  //     from when I first started learning programming and I finally felt ready
-  //     to tackle it, "head-on"!`,
-  //   timeLine: `This project took me a month and a week to complete (2/2023 - 4/2023).`,
-  //   techUsed: "JAVASCRIPT, HTML, CSS, REACT",
-  //   image: require("../images/projectPics/letter_to_success.png"),
-  //   site: "https://lettertosuccess.netlify.app",
-  //   githubLink: "https://github.com/OSharpe001/letter-to-success",
-  //   position: "right"
-  // },
+  {
+    title: "Letter to Success",
+    description:
+      `My rendition of "Wheel of Fortune! A great way to wind-down after a
+      busy day of coding.`,
+    details: `My first vanity project after learning React. It was an idea
+      from when I first started learning programming and I finally felt ready
+      to tackle it, "head-on"!`,
+    timeLine: `This project took me a month and a week to complete the MVP. I'm starting to refactor and improve the site, again. (2/2023 - Current).`,
+    techUsed: "JAVASCRIPT, HTML, CSS, REACT",
+    image: require("../images/projectPics/letter_to_success.png"),
+    site: "https://lettertosuccess.netlify.app",
+    githubLink: "https://github.com/OSharpe001/letter-to-success",
+    position: "right"
+  },
   // {
   //   title: "Our Tip Calculator",
   //   description:
@@ -96,14 +96,14 @@ export const projects = [
   //   githubLink: null,
   //   position: "right"
   // },
-  {
-    title: "More to Come",
-    description: "JUST LIKE A BIG CITY,. . . I KEEP ON BUILDING!",
-    details: `I'll keep on building!`,
-    techUsed: "The latest technologies",
-    image: require("../images/projectPics/build_higher.jpeg"),
-    site: null,
-    githubLink: null,
-    position: "right"
-  },
+  // {
+  //   title: "More to Come",
+  //   description: "JUST LIKE A BIG CITY,. . . I KEEP ON BUILDING!",
+  //   details: `I'll keep on building!`,
+  //   techUsed: "The latest technologies",
+  //   image: require("../images/projectPics/build_higher.jpeg"),
+  //   site: null,
+  //   githubLink: null,
+  //   position: "right"
+  // },
 ];
