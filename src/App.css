@@ -130,9 +130,9 @@ header a {
   padding-top: 13vh;
   height: 87vh;
   color: aliceblue;
-  background-image: url(assets/images/projectPics/build_higher_background.jpeg);
+  background-image: url(assets/images/digitalCity.png);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: bottom center;
 }
 
 .landing h1 {
