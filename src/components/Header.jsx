@@ -66,7 +66,7 @@ export default function Header({ handlePageShift, mobileNavOpen, toggleMobileNav
       <nav className={mobileNavOpen ? "section-scroll-list mobile" : "section-scroll desktop"}>
         <a aria-label="On Click" className="shift-page-link" onClick={handlePageShift("contactme")} href="/#contact-me">Contact Me</a>
         <a aria-label="On Click" className="shift-page-link" onClick={handlePageShift("projects")} href="/#projects">Projects</a>
-        <a aria-label="On Click" className="shift-page-link" target="_blank" rel="noreferrer" href="OSharpe_FD_Resume.pdf">My Resume</a>
+        <a aria-label="On Click" className="shift-page-link" target="_blank" rel="noreferrer" href="OSharpe_SD_Resume.pdf">My Resume</a>
       </nav>
     </header>
   );
