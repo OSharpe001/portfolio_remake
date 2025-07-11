@@ -133,6 +133,7 @@ header a {
   background-image: url(assets/images/digitalCity.png);
   background-repeat: no-repeat;
   background-position: bottom center;
+  background-size: cover;
 }
 
 .landing h1 {
