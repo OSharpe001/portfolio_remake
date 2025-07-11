@@ -4,7 +4,7 @@ export default function LandingSection({ handlePageShift }) {
 
   return (
     <section className="landing">
-      <img src={require("../assets/images/tanProfileToken.png")} alt="PTN profile" className="profile-pic" />
+      <img src={require("../assets/images/blueProfileToken.png")} alt="PTN profile" className="profile-pic" />
       <h1>Omari Sharpe</h1>
       <p className="declaration">Your New Favorite Software Engineer</p>
       <p className="declaration">Who Specializes In MERN-Stack Development</p>
