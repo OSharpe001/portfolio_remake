@@ -10,9 +10,11 @@ export default function Header({ handlePageShift, mobileNavOpen, toggleMobileNav
   const [scrollPosition, setScrollPosition] = useState({
     y: 0,
   });
+
   const [prevScrollPosition, setPreviousScrollPositiion] = useState({
     y: 0,
   })
+
   const handleScrollPositionChange = (e) => {
     setPreviousScrollPositiion({
       y: scrollPosition.y
@@ -21,6 +23,7 @@ export default function Header({ handlePageShift, mobileNavOpen, toggleMobileNav
       y: window.scrollY
     },);
   };
+
   window.addEventListener("scroll", handleScrollPositionChange);
   let headerPos = scrollPosition.y > 0 && scrollPosition.y > prevScrollPosition.y ? "hide" : "show";
 
