@@ -6,7 +6,7 @@ import { Footer, Header, Main, ProjectDetailPage } from './components';
 
 export default function App() {
 
-  const [detailPage, setDetailPage] = useState({
+  const [detailPageInfo, setDetailPageInfo] = useState({
     title: "",
     details: "",
     timeLine: "",
@@ -36,18 +36,18 @@ export default function App() {
   return (
     <div className="App">
       <Header
-            mobileNavOpen={mobileNavOpen}
-            toggleMobileNav={toggleMobileNav}
-            handlePageShift={handlePageShift}
-          />
+        mobileNavOpen={mobileNavOpen}
+        toggleMobileNav={toggleMobileNav}
+        handlePageShift={handlePageShift}
+      />
       <Routes>
         <Route path="/" element={<Main
-                                    setDetailPage={setDetailPage}
-                                    handlePageShift={handlePageShift}
-                                  />}/>
+          setDetailPageInfo={setDetailPageInfo}
+          handlePageShift={handlePageShift}
+        />} />
         <Route path="/details" element={<ProjectDetailPage
-                                                        form={detailPage}
-                                                      />}/>
+          project={detailPageInfo}
+        />} />
       </Routes>
       <Footer />
     </div>
