@@ -1,14 +1,14 @@
 
 
-export default function ProjectDetailPage({ form }) {
+export default function ProjectDetailPage({ project }) {
 
-  const title = form.title;
-  const details = form.details;
-  const timeLine = form.timeLine;
-  const image = form.image;
-  const site = form.site;
-  const github = form.github;
-  const techUsed = form.techUsed;
+  const title = project.title;
+  const details = project.details;
+  const timeLine = project.timeLine;
+  const image = project.image;
+  const site = project.site;
+  const github = project.github;
+  const techUsed = project.techUsed;
 
   return (
     <section className="details-page">
