@@ -1,12 +1,12 @@
 import { useNavigate } from 'react-router-dom';
 
 
-export default function ProjectCard({ title, description, image, site, github, details, timeLine, position, techUsed, setDetailPage }) {
+export default function ProjectCard({ title, description, image, site, github, details, timeLine, position, techUsed, setDetailPageInfo }) {
 
   const navigate = useNavigate();
 
   const goToDetails = () => {
-    setDetailPage({
+    setDetailPageInfo({
       title: title,
       details: details,
       timeLine: timeLine,

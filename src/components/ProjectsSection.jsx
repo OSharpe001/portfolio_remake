@@ -2,7 +2,7 @@ import { projects } from "../assets/componentLists/projectList";
 import ProjectCard from "./ProjectCard";
 
 
-export default function ProjectsSection({ setDetailPage }) {
+export default function ProjectsSection({ setDetailPageInfo }) {
 
   return (
       <section id="projects-section">
@@ -20,7 +20,7 @@ export default function ProjectsSection({ setDetailPage }) {
               github={project.githubLink}
               position={project.position}
               techUsed={project.techUsed}
-              setDetailPage={setDetailPage}
+              setDetailPageInfo={setDetailPageInfo}
             />
           ))}
         </div>
